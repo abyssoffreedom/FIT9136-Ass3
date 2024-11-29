@@ -1,0 +1,29 @@
+Assignment Results
+Mark: 14.3 of 15 (HD)
+Days late: 0 (-0%)
+Correct submission: Yes (1)
+
+Marked by: Daniel Bechaz
+
+Automarker Results (8/8)
+Tasks 1-3
+T1: 0.5 / 0.5
+T2: 2 / 2
+T3: 1.5 / 1.5
+
+Tasks 4-6
+T4: 1.5 / 1.5
+T5: 1.5 / 1.5
+T6: 1 / 1
+
+Checkpoint Results (1/1)
+
+TA Review (4.3/5)
+Marked by: Daniel Bechaz
+
+Tasks 1-6
+Documentation: Satisfactory
+Comments: Satisfactory
+Variable Naming: Excellent
+Readability: Satisfactory
+Feedback: You have done quite well in implementing this assignment. An area for improvement in your code itself is to better compartmentalise your code e.g. your `Container.add_item` method implements both `Container`s and `MultiContainer`s `add_item` logic; the logic for `MultiContainer`s method should be inside the `MultiContainer` class. You have done well to include doc strings and type hints for all classes and methods but the actual content of your doc strings leaves much to be desired, e.g. "Add an item into the container." does nothing to inform the user of what conditions cause an item to successfully be added to the container or rejected. The comments you have included do well to explain the individual lines of code they are attached to however it would be good if you also included comments to summarise the purpose of blocks of code; in particular loops and `if` statements are key decision points in your code, and it is important to explain exactly what decision those blocks of code are making.
